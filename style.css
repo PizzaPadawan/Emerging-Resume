@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Arcade";
+    src: url(fonts/ARCADE_N.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: "VCR";
+    src: url(fonts/VCR_OSD_MONO_1.001.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Cabin";
+    src: url(fonts/Cabin-Regular.ttf) format('opentype');
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Cabin", sans-serif;
+    color: antiquewhite;
+}
+
+.header {
+    font-family: "Cabin", sans-serif;
+    width: 1100px; 
+    height: 550px; 
+    padding: 50px 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:#3a2a9f;
+    box-sizing:border-box;
+    margin: 50px auto;
+    
+}
+
+.header img {
+    height: auto;
+    width: 300px;
+    clip-path: circle();  
+}
+
+.header a {
+    text-decoration: none;
+    color:lightseagreen;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    color:#986ae8;
+}
+
+.main {
+    width: 900px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-text {
+    width: 550px;
+    color:antiquewhite;
+}
+
+.header-text h1 {
+    font-family: "Arcade", sans-serif;
+    font-weight: normal;
+    font-size: 70px ;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+    color:#ff965e;
+    text-shadow: 4px 4px 10px hotpink, -4px -4px 10px darkturquoise;
+}
+
+.header-text h3 {
+    font-family: "VCR", sans-serif;
+    font-weight: normal;
+    font-size: 15px ;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.header-text h5 {
+    font-family: "VCR", sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color:#6281fb;
+}
+
+.job-description {
+    font-family: "Cabin", sans-serif;
+    padding-left: 10px;
+}
+
+.job-description h2{
+    font-family: "VCR", sans-serif;
+    text-align:center;
+    letter-spacing: 5px;
+    color:#3a2a9f;
+    text-shadow: 2px 2px 4px #ff965e, -2px -2px 4px darkturquoise;
+}
+
+.job-entry {
+    width: 1100px; 
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:#3a2a9f;
+    box-sizing:border-box;
+    margin: 40px auto;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.job-entry h3 {
+    font-family: "Arcade", sans-serif;
+    font-weight: normal;
+    color:#ff965e;
+}
+
+.job-entry h4 {
+    font-family: "VCR", sans-serif;
+    color:lightseagreen;
+}
+
+.education {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+
+.education h2 {
+    font-family: "VCR", sans-serif;
+    text-align:center;
+    letter-spacing: 5px;
+    color:#3a2a9f;
+    text-shadow: 2px 2px 4px #ff965e, -2px -2px 4px darkturquoise;
+    margin-top: 40px;
+}
+
+.education-detail {
+    width: 1100px; 
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:#3a2a9f;
+    box-sizing:border-box;
+    margin: 40px auto;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.education-detail h3 {
+    font-family: "Arcade", sans-serif;
+    font-weight: normal;
+    color:#ff965e;
+}
+
+.education-detail h4 {
+    font-family: "VCR", sans-serif;
+    color:lightseagreen;
+}
